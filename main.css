@@ -1,0 +1,8 @@
+.container{
+	width:500px;
+	margin: 0 auto;
+}
+form * {display: inline-block;}
+table{width:500px;display: none;margin-top:10px;}
+.del{cursor: pointer;}
+.del:hover{text-decoration: underline;}
