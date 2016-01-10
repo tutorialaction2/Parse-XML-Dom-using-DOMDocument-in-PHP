@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Local Storage example</title>
+  <title>Parse XML Dom using DOMDocument in PHP</title>
     <link href="main.css" rel="stylesheet" />
 </head>
 <body>
