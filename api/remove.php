@@ -8,7 +8,7 @@ $id = $_GET['id'];
  foreach( $nodes as $node ){
  	$subNodes = $node->childNodes;
            foreach ($subNodes as $subNode)
-            	if($subNode->nodeName=="id"&&$subNode->nodeValue=="3")
+            	if($subNode->nodeName=="id"&&$subNode->nodeValue==$id)
             		$node->parentNode->removeChild($node);
      
  }
